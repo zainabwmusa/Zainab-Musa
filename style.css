@@ -1,4 +1,3 @@
-/*
 *{
   padding: 0;
   margin: 0;
@@ -17,7 +16,6 @@ body{
 
 /*HERO AND NAVBAR SECTION*/
 
-/*
 .hero{
   background: url(hero.png) no-repeat center center;
   max-height: 1550vh;
@@ -132,7 +130,7 @@ body{
 
 /*MAIN SECTION*/
 
-/*
+
 main{
   background: url(dp.png) no-repeat center center;
   background-size: cover;
@@ -176,7 +174,7 @@ main .about p{
 }
 
 /*PROJECTS SECTION*/
-/*
+
 .projects h1{
   text-align: center;
   font-size: 3.5em;
@@ -261,7 +259,7 @@ main .about p{
 }
 
 /*SKILLS SECTION*/
-/*
+
 .skills{
   min-height: 45vh;
   width: 100%;
@@ -306,7 +304,7 @@ main .about p{
 }
 
 /*Certificates Section*/
-/*
+
 .certificates {
   width: 100%;
   padding: 3em 0 3em 0;
@@ -377,7 +375,7 @@ main .about p{
 }
 
 /*TESTIMONIAL SECTION*/
-/*
+
 .testimonials-section {
   background: linear-gradient(90deg, rgb(4, 255, 0), black, black);
   padding: 3em 0 3em 0;
@@ -455,7 +453,7 @@ main .about p{
 }
 
 /*CONTACT SECTION*/
-/*
+
 .contact-section {
   background: url(skills.png) no-repeat center center;
   background-size: cover;
@@ -561,7 +559,7 @@ main .about p{
   }
 
 /*Map Embed*/
-/*
+
 .map-container {
   width: 100%;
   max-width: 600px;
@@ -589,7 +587,7 @@ main .about p{
 }
 
 /*FOOTER SECTION*/
-/*
+
   .contact-section .footer p {
     font-size: 2em;
     padding-top: 15em;
@@ -724,7 +722,7 @@ main .about p{
     max-height: 300px; 
   }
 }
-*/
+
 
 h1{
   font-size: 50px;
