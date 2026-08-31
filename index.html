@@ -1,182 +1,241 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Zainab Musa, a fullstack website developer specializing in creating clean, user-friendly, and responsive web applications.">
-    <meta name="keywords" content="Zainab Musa, fullstack developer, web developer, portfolio, HTML, CSS, JavaScript, Lagos, Nigeria">
-    <title>Zainab Musa | Fullstack Developer Portfolio</title>  
-    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3294292545786572"
-     crossorigin="anonymous"></script>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
 
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Zainab Pamilerin Musa | FullStack Developer. </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="pic/zainab.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
 <body>
-    <div class="hero">  
-      <div class="navbar">
-        <div class="nav">
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#certificate">Certificates</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+  <button id="sidebarToggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 
-          <div class="hero-content">
-        <h1>I'm Zainab Musa ❤️</h1>
-        <p>✋ A Frontend web developer. <br> Building elegant and efficient web applications.</p>    
-        <div class="see">
-      <a href="#projects">See My Works</a>
+  <div class="intro">
+    <!--Intro Section-->
+    <nav id="navSidebar" class="sidebar">
+      <div class="brand">Hi, I'm Zainab 🙋‍♀️</div>
+      <ul>
+        <li><a href="#skills">Skills <i class="fa-solid fa-brain"></i></a></li>
+        <li><a href="#projects">Projects <i class="fa-solid fa-diagram-project"></i></a></li>
+        <li><a href="contact.html" target="_blank">Contact <i class="fa-solid fa-address-book"></i></a></li>
+      </ul>
+    </nav>
+
+    <div class="about">
+      <p id="about">
+        <img style="float: left;" width="350px" src="pic/zainab.png" alt="my picture">
+        I'm a <span style="color: rgba(82, 0, 82, 0.748);">FullStack Website Developer</span> at 15 with a focus on
+        clean, <br> user-friendly, and responsive design. I started learning Web Development<br> in the year 2022 and I
+        already acquire advanced knowledge <br>on HTML, CSS and JavaScript and on the right way to use these <br>
+        languages. I enjoy turning ideas into functional, visually <br> appealing websites using HTML, CSS, JavaScript,
+        and modern tools. <br> I build websites beyond the customer's expectation and also <br> according to the
+        customer's request. I’m always learning and <br>exploring new techniques to improve my skills and build better
+        <br> web experiences. I use <span style="color: rgba(82, 0, 82, 0.748);">Visual Studio Code</span> as my text
+        editor and <br> the 3 major programming languages (HTML, CSS, and JavaScript) <br> to build clean,
+        user-friendly, and responsive designs and websites.
+      </p>
+    </div>
+  </div>
+
+  <!--Skills Section-->
+  <div id="skills" class="skills">
+    <h1>My Skills 👩‍💻</h1>
+    <div class="lang">
+      <p>HTML5 <br> <i class="fa-brands fa-html5"></i></p>
+      <p>CSS <br> <i class="fa-brands fa-css3"></i></p>
+      <p>JavaScript <br> <i class="fa-brands fa-square-js"></i></p>
+      <p>React <br> <i class="fa-brands fa-react"></i></p>
+      <p>Python <br> <i class="fa-brands fa-python"></i></p>
+      <p>Figma <br> <i class="fa-brands fa-figma"></i></p>
+    </div>
+  </div>
+
+  <hr>
+  <!--Certificate Section-->
+
+  <!--  <div id="certificate" class="certificate">
+    <h1>My Certificates</h1>
+      <div class="cert">
+       <a href="pic/Zainab Musa's HTML5 Certificate.jpg" title="Click To View" target="_blank"><img width="300px" src="pic/Zainab Musa's HTML5 Certificate.jpg" alt="My HTML5 Certificate"></a>
+
+              <a href="pic/Zainab Musa's CSS3 Certificate.png" title="Click To View" target="_blank"><img width="300px" src="pic/Zainab Musa's CSS3 Certificate.png" alt="My CSS3 Certificate"></a>
+
+                     <a href="pic/Zainab Musa's HTML5 Certificate.jpg" title="Click To View" target="_blank"><img width="300px" src="pic/Zainab Musa's HTML5 Certificate.jpg" alt="My HTML5 Certificate"></a>
+
+              <a href="pic/Zainab Musa's CSS3 Certificate.png" title="Click To View" target="_blank"><img width="300px" src="pic/Zainab Musa's CSS3 Certificate.png" alt="My CSS3 Certificate"></a>
       </div>
+  </div> -->
+
+  <div id="projects" class="projects">
+    <h1>My Projects</h1>
+    <div class="project-list">
+      <article class="project-card">
+        <div class="project-image">
+          <img src="pic/project1.png" alt="Ultimate Calculator project preview">
+        </div>
+        <div class="project-content">
+          <h2>Ultimate Calculator</h2>
+          <p>A clean and functional calculator interface designed for both quick and complex calculations with a
+            polished user experience
+            and responsive layout.</p>
+          <div class="project-links">
+            <a target="_blank" href="https://ultimate-calculator-six.vercel.app/" title="View live demo"><i
+                class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+            <a target="_blank" href="https://github.com/zainabwmusa/Ultimate-Calculator" title="Github"><i
+                class="fa-brands fa-square-github"></i> GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="pic/project2.png" alt="Coldstone project preview">
+        </div>
+        <div class="project-content">
+          <h2>Coldstone</h2>
+          <p>A modern landing page concept that blends rich branding, premium visuals, and elegant call-to-action
+            sections for a memorable product presentation.</p>
+          <div class="project-links">
+            <a target="_blank" href="https://coldstone-three.vercel.app/" title="View live demo"><i
+                class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+            <a target="_blank" href="https://github.com/zainabwmusa/Coldstone" title="Github"><i
+                class="fa-brands fa-square-github"></i> GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="pic/project3.png" alt="Praroz project preview">
+        </div>
+        <div class="project-content">
+          <h2>Portfolio For A Professional</h2>
+          <p>A classic business-style website for a UI/UX Designer and a Copywriter crafted to showcase services, visual
+            credibility, and a neat user flow that feels professional and trustworthy.</p>
+          <div class="project-links">
+            <a target="_blank" href="https://ocheme-abel.vercel.app/" title="View live demo"><i
+                class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+            <a target="_blank" href="https://github.com/zainabwmusa/Ocheme-Abel" title="Github"><i
+                class="fa-brands fa-square-github"></i> GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="pic/project4.png" alt="YouTube clone project preview">
+        </div>
+        <div class="project-content">
+          <h2>Graphic Design</h2>
+          <p>A Professional graphic design portfolio showcasing a range of creative works and visual solutions.</p>
+          <div class="project-links">
+            <a target="_blank" href="https://amos-osho-david.vercel.app/" title="View live demo"><i
+                class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+            <a href="https://github.com/zainabwmusa/Amos-Osho-David" target="_blank" title="Github"><i
+                class="fa-brands fa-square-github"></i> GitHub</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-blur">
+        <h1>Lets's Connect 🤝</h1>
+        <div class="contact">
+          <p>If you have any questions, feedback, or just want to say hello, feel free to reach out!</p>
+          <form action="https://formspree.io/f/xnnzoeop" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+          <div class="map-container">
+            <h2 style="margin-top:2em; background: linear-gradient(90deg, rgb(4, 255, 0) 50%, rgb(255, 255, 255), rgb(255, 255, 255));
+      background-clip: text;
+      color: transparent;">📍 My Location: Lagos, Nigeria</h2>
+            <iframe class="map-embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15852.47340053403!2d3.3792056!3d6.5243793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b15b8b8b8b8%3A0x7e7e7e7e7e7e7e7e!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1690999999999!5m2!1sen!2sng"
+              width="100%" height="300" style="border:0; border-radius: 1em; margin-top:1em;" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
       </div>
       
-    </div>
-    <main> 
-      <div id="about" class="about">
-      <h1>About Me 👧</h1>
-  <hr class="hr">
-        <p>
-           I'm a FullStack Website Developer at 15 with a focus on clean, <br>  user-friendly, and responsive design. I started learning  Website Development <br>  in the year 2022 and I already acquire advanced knowledge  <br>of HTML, CSS and JavaScript and on the right way to use these <br> languages. I enjoy turning ideas into functional, visually <br> appealing websites using HTML, CSS, JavaScript, and modern tools. <br>  <p> I build websites beyond the customer's expectation and also <br> according to the customer's request. I’m always learning and <br>exploring new techniques to improve my skills and build better <br> web experiences. I use Visual Studio Code as my text editor and <br> the 3 major programming languages (HTML, CSS, and JavaScript) <br> to build clean, user-friendly, and responsive designs and websites.</p>
-        </p>
-      </div>
+    <footer>
+      <p>&copy; 2026 Zainab Pamilerin Musa. All rights reserved.</p> <br>
+      <a href="mailto:zainabwmusa@gmail.com?subject=Portfolio%20Inquiry"><i class="fa-solid fa-envelope"></i>
+        zainabwmusa@gmail.com</a> <br>
+      <br>
+      <a target="_blank"
+        href="https://www.linkedin.com/in/zainab-musa-406450377/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BiI6US6%2BzSl%2BdU4VFefcMSA%3D%3D"><i
+          class="fa-brands fa-square-linkedin"></i></a>
 
-    </main>
+      <a target="_blank"
+        href="https://wa.me/2347011766328?text=Hello!%20I%20saw%20%20your%20website%20and%20I%20have%20a%20question?"><i
+          class="fa-brands fa-whatsapp"></i></a>
 
-      <div id="projects" class="projects">
-        <h1>My Projects 🖥️</h1>
-        <div class="gallery">
-        <div class="img-container"> 
-          <img width="300px" src="calc.png" alt="calculator project">
-          <p class="img-des">A comprehensive suite of web-based calculators for all needs. <br> <br> <a target="_blank" href="https://ultimate-calculator-six.vercel.app/">View live demo <i class="fa-solid fa-up-right-from-square"></i></a> <a target="_blank" href="https://github.com/zainabwmusa/Ultimate-Calculator"> Github <i class="fa-brands fa-square-github"></i> </a>
-          </p>
-        </div>
+      <a target="_blank" href="https://github.com/zainabwmusa/Praroz-zainabwmusa.github.io"><i
+          class="fa-brands fa-github"></i></a>
+    </footer>
+  </div>
 
-        <div class="img-container"> 
-          <img width="300px" src="coldstone.png" alt="coldstone project">
-          <p class="img-des">A front-end clone of the Cold Stone Creamery website.
-<br> <br> <a target="_blank" href="https://coldstone-three.vercel.app/">View live demo <i class="fa-solid fa-up-right-from-square"></i></a> <a target="_blank" href="https://github.com/zainabwmusa/Coldstone">Github <i class="fa-brands fa-square-github"></i> </a>
-          </p>
-        </div>
+  <script>
+    const sidebarToggle = document.getElementById('sidebarToggle');
+    const navSidebar = document.getElementById('navSidebar');
 
-         <div class="img-container"> 
-          <img width="300px" src="Praroz.png" alt="Praroz project">
-          <p class="img-des">A professional landing page for a web design course.
-<br> <br> <a target="_blank" href="https://zainabwmusa.github.io/Praroz-zainabwmusa.github.io/">View live demo <i class="fa-solid fa-up-right-from-square"></i></a> <a target="_blank" href="https://github.com/zainabwmusa/Praroz-zainabwmusa.github.io"> Github <i class="fa-brands fa-square-github"></i> </a>
-          </p>
-        </div>
+    if (sidebarToggle && navSidebar) {
+      const closeMenu = () => {
+        navSidebar.classList.remove('active');
+        sidebarToggle.classList.remove('open');
+        sidebarToggle.setAttribute('aria-expanded', 'false');
+      };
 
-        <div class="img-container">
-          <img src="youtube.png" width="300px" alt="Youtube Projects">
-          <p class="img-des">A front-end clone of the Youtube Website with functioning links <br> <br>
-          <a target="_blank" href="https://youtube-five-henna.vercel.app/">View live demo <i class="fa-solid fa-up-right-from-square"></i></a> <a href="https://github.com/zainabwmusa/zainabwmusa.github.io" target="_blank">Github <i class="fa-brands fa-square-github"></i></a>
-        </p>
-        </div>
-      </div>
-      </div>
+      const openMenu = () => {
+        navSidebar.classList.add('active');
+        sidebarToggle.classList.add('open');
+        sidebarToggle.setAttribute('aria-expanded', 'true');
+      };
 
-    <section id="skills" class="skills">
-      <div class="blur-skill">
-       <h1>My Skills 🛠️</h1>
-        <div class="skills-container">
-          <i class="fa-brands fa-html5"> <br>HTML</i>
-          <i class="fa-brands fa-css3"><br>CSS</i>
-          <i class="fa-brands fa-square-js"><br>JavaScript</i>
-          <i style="padding-left: 3em;" class="fa-brands fa-react"> <br>React</i>
-          <i style="padding-left: 2.5em;" class="fa-brands fa-python"><br>Python</i>
-        </div>
-     </div>
-  </section>
+      sidebarToggle.addEventListener('click', () => {
+        if (navSidebar.classList.contains('active')) {
+          closeMenu();
+        } else {
+          openMenu();
+        }
+      });
 
-  <section  id="certificate">
-    <div class="certificates">
-      <h1>Certificates 🏆</h1>
-      <div class="certificates-container">
-        <div class="certificate-card">
-          <img src="html-certificate.jpg" alt="HTML CSS Responsive Design Certificate">
-          <p>HTML, CSS, and Responsive Design</p>
-        </div>
-        <div class="certificate-card">
-          <img src="css-certificate.png" alt="JavaScript Algorithms and Data Structures Certificate">
-          <p>JavaScript Algorithms and Data Structures</p>
-        </div>
-        <div class="certificate-card">
-          <img src="css-certificate.png" alt="React Frontend Development Certificate">
-          <p>React Frontend Development</p>
-        </div>
-      </div>
-    </div>
-  </section>
+      navSidebar.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          if (window.innerWidth <= 1024) {
+            closeMenu();
+          }
+        });
+      });
 
-        <section  id="Testimonials" class="testimonials-section">
-      <h1>Testimonials <span>💬</span></h1>
-      <div class="testimonials-container">
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client 1" class="testimonial-img">
-          <h3>Fatima Bello</h3>
-          <p class="testimonial-text">"Zainab delivered my website exactly as I wanted. She was professional, creative, and very responsive. Highly recommended!"</p>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 2" class="testimonial-img">
-          <h3>Samuel Adeyemi</h3>
-          <p class="testimonial-text">"Working with Zainab was a great experience. She turned my ideas into a beautiful, functional site. I will definitely work with her again!"</p>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client 3" class="testimonial-img">
-          <h3>Chinwe Okafor</h3>
-          <p class="testimonial-text">"Her attention to detail and design skills are top-notch. My business website looks amazing and works perfectly on all devices."</p>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Client 4" class="testimonial-img">
-          <h3>Ahmed Musa</h3>
-          <p class="testimonial-text">"Zainab is a talented developer. She communicates well and delivers on time. I am very happy with the results!"</p>
-        </div>
-      </div>
-    </section>
+      window.addEventListener('resize', () => {
+        if (window.innerWidth > 1024) {
+          navSidebar.classList.remove('active');
+          sidebarToggle.classList.remove('open');
+          sidebarToggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+  </script>
 
-    <section  id="contact" class="contact-section">
-      <div class="contact-blur">
-      <h1>Lets's Connect 🤝</h1>
-      <div class="contact">
-        <p>If you have any questions, feedback, or just want to say hello, feel free to reach out!</p>
-        <form action="https://formspree.io/f/xnnzoeop" method="POST">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-        <div class="map-container">
-          <h2 style="margin-top:2em; background: linear-gradient(90deg, rgb(4, 255, 0) 50%, rgb(255, 255, 255), rgb(255, 255, 255));
-  background-clip: text;
-  color: transparent;">📍 My Location: Lagos, Nigeria</h2>
-          <iframe class="map-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15852.47340053403!2d3.3792056!3d6.5243793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b15b8b8b8b8%3A0x7e7e7e7e7e7e7e7e!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1690999999999!5m2!1sen!2sng" width="100%" height="300" style="border:0; border-radius: 1em; margin-top:1em;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-      </div>
-      <section class="footer">
-        <p>© 2025 Zainab Musa. All rights reserved.</p> <br>
-        <div class="social-icons-footer">
-          <a href="mailto:zainabwmusa@gmail.com?subject=Portfolio%20Inquiry"><i class="fa-solid fa-envelope"></i> zainabwmusa@gmail.com</a> <br>
-          <br>
-          <a target="_blank" href="https://www.linkedin.com/in/zainab-musa-406450377/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BiI6US6%2BzSl%2BdU4VFefcMSA%3D%3D"><i class="fa-brands fa-square-linkedin"></i></a>
-         
-          <a target="_blank" href="https://wa.me/2347011766328?text=Hello!%20I%20saw%20%20your%20website%20and%20I%20have%20a%20question?"><i class="fa-brands fa-whatsapp"></i></a>
+</body>
 
-          <a target="_blank" href="https://github.com/zainabwmusa/Praroz-zainabwmusa.github.io"><i class="fa-brands fa-github"></i></a>
-        </div>
-      </section>
-    </section>
-
-    <!-- BEGIN PREMIUM.CHAT CODE {literal} -->
-<div class="pchat-widget-placeholder"></div><script type='text/javascript'>(function(d,w,i){w.premiumchat = w.premiumchat || [];var p = w.premiumchat; if(!p.length){(()=>{
-w.premiumchat_domain = 'https://premium.chat/';var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = w.premiumchat_domain+'embed/js/widget.js'; var ss = d.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();}
-p.push({'num': p.length, 'wid': i});})(document, window,1024307);</script>
-<!-- {/literal} END PREMIUM.CHAT CODE -->
-
-    <script src="script.js"></script>
-  </body>
-  </html>
+</html>
