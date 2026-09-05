@@ -23,7 +23,6 @@ html {
   padding: auto;
 }
 
-
 nav {
   padding: 35px 20px;
   font-size: 20px;
@@ -125,6 +124,8 @@ nav a:hover {
   outline: solid 0.5px rgba(82, 0, 82, 0.748);
   border-radius: 21px;
   font-size: 20px;
+  margin: auto;
+  margin-top: 50px;
 }
 
 #about {
@@ -138,13 +139,51 @@ nav a:hover {
     0 15px 30px rgba(82, 0, 82, 0.748),
     0 11px 8px rgba(82, 0, 82, 0.748);
   margin-bottom: 2em;
-  margin-top: 3em;
 }
 
 .about {
   position: relative;
   display: flex;
   min-height: 100vh;
+  flex-direction: column;
+  padding: 6rem 1.5rem 2rem;
+}
+
+.intro-copy {
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  text-align: left;
+}
+
+.eyebrow {
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.8rem;
+}
+
+.intro-copy h1 {
+  color: #ffffff;
+  font-size: clamp(2.3rem, 4vw, 4.5rem);
+  line-height: 1.1;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  text-shadow: 0 10px 25px rgba(82, 0, 82, 0.5);
+}
+
+.intro-copy h1 span {
+  color: transparent;
+  background: linear-gradient(to right, #f5d0ff, #ffffff, #d9b3ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.tagline {
+  max-width: 700px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
 hr {
@@ -175,25 +214,39 @@ hr {
 }
 
 .skills .lang {
-  justify-content: center;
-  gap: 1em;
-  margin-top: 3em;
-  font-size: 20px;
+  max-width: 620px;
+  margin: 3em auto 0;
   display: grid;
-  grid-template-columns: repeat(2, 200px);
-  line-height: 2.5;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .skills .lang p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 1em;
+  padding: 1rem 0.75rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 120px;
+  min-height: 110px;
   box-shadow:
     0 15px 30px rgba(0, 0, 0, 0.3),
     0 11px 8px rgba(82, 0, 82, 0.748);
   backdrop-filter: blur(10px);
-  width: 120px;
   position: relative;
+}
+
+.skills .lang p span {
+  display: block;
+  text-align: center;
 }
 
 .skills .lang p:hover,
@@ -208,6 +261,24 @@ hr {
   color: transparent;
   background: linear-gradient(to top right, purple, rgb(255, 255, 255), purple);
   background-clip: text;
+}
+
+@media (max-width: 600px) {
+  .skills .lang {
+    grid-template-columns: repeat(2, minmax(110px, 1fr));
+    gap: 0.8rem;
+    padding: 0 0.75rem;
+  }
+
+  .skills .lang p {
+    max-width: none;
+    min-height: 100px;
+    padding: 0.8rem 0.5rem;
+  }
+
+  .skills .lang span {
+    font-size: 0.95rem;
+  }
 }
 
 /*Certificate Section*/
@@ -334,7 +405,13 @@ hr {
 
 .contact-section {
   padding: 5rem 1.5rem 3rem;
-  background: linear-gradient(to top left, black, black, rgb(0, 0, 0), purple 90%);
+  background: linear-gradient(
+    to top left,
+    black,
+    black,
+    rgb(0, 0, 0),
+    purple 90%
+  );
   background: url(pic/purplestripes.png);
 }
 
@@ -407,7 +484,9 @@ hr {
   background: linear-gradient(to top right, purple, rgb(255, 255, 255), purple);
   color: #111;
   cursor: pointer;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .contact button:hover {
@@ -481,6 +560,7 @@ footer a {
   text-decoration: none;
   color: #fff;
   padding-left: 2em;
+  line-height: 2.5;
 }
 
 footer a:hover {
@@ -528,5 +608,26 @@ footer a:hover {
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.08);
     background: rgba(255, 255, 255, 0.02);
+  }
+}
+
+@media (max-width: 425px) {
+  .intro img {
+    width: 250px;
+  }
+  #about {
+    padding: 3em;
+    max-width: 30rem;
+    padding: 25px;
+    font-size: 15px;
+    font-weight: 900;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+
+  footer a {
+    font-size: 16px;
   }
 }
