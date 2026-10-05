@@ -147,6 +147,7 @@ nav a:hover {
   min-height: 100vh;
   flex-direction: column;
   padding: 6rem 1.5rem 2rem;
+  text-align: left;
 }
 
 .intro-copy {
@@ -444,6 +445,7 @@ hr {
   font-size: 1.05rem;
   line-height: 1.8;
   margin-bottom: 1.5rem;
+  text-align: left;
 }
 
 .contact form {
